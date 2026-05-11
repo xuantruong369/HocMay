@@ -1,0 +1,39 @@
+{
+    "Selected Features": [
+        0,
+        2,
+        5
+    ],
+    "Decision Tree Best Params": {
+        "criterion": "gini",
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "SVM Best Params": {
+        "C": 10,
+        "gamma": 0.001,
+        "kernel": "rbf"
+    },
+    "Random Forest Best Params": {
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "n_estimators": 100
+    },
+    "Model Results": {
+        "Naive Bayes": {
+            "ROC_AUC": 0.8466175842936406
+        },
+        "Decision Tree": {
+            "ROC_AUC": 0.9252404872123182
+        },
+        "SVM": {
+            "ROC_AUC": 0.8466397452312945
+        },
+        "Random Forest": {
+            "ROC_AUC": 0.9436184707311469
+        },
+        "Neural Network": {
+            "ROC_AUC": 0.8523096621688172
+        }
+    }
+}
